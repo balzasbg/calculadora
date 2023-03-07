@@ -1,0 +1,60 @@
+.carcasa{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    background: rgb(146, 146, 146);
+    box-shadow: 0px 0px 40px #111;
+    border-radius: 5px;
+    border: solid #111 1px;
+
+}
+
+#pantalla{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background: #ffffff;
+    border: solid #111 1px;
+    border-radius: 3px;
+    color: orange;
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #111;
+    border-left: 1px solid #111 ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button > div{
+    border-top: 1px solid #111;
+    border-right: 1px solid #111;
+    
+}
+
+.button{
+    border: 1px solid #111 ;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: #ffda95;
+    background: #343434;
+
+}
+#equal{
+    background-color:#ffda95;
+    color: #111;
+}
+
+.button:hover{
+    background-color: #111;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#equal:hover{
+    background-color: #111;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #ffda95;
+}
